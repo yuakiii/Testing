@@ -1,1 +1,33 @@
-ваш план тестування
+
+# Test Plan — QA Test Project
+
+## 1. Objective
+Test login, registration, and password reset features for a sample web application.
+
+## 2. Scope
+- Login page testing
+- Registration page testing
+- Password reset functionality
+- API testing for login and registration
+
+## 3. Types of Tests
+- Smoke testing
+- Regression testing
+- Positive/Negative test cases
+- UI testing
+- API testing with Postman/Pytest
+
+## 4. Tools
+- GitHub Issues for bug tracking
+- Postman for API tests
+- Pytest for automation
+
+## 5. Acceptance Criteria
+- All critical test cases must pass
+- No high severity bugs left open
+
+## 6. Completion Criteria
+- At least 95% coverage of main scenarios
+- All found bugs documented in BugReports/
+
+
