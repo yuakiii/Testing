@@ -1,1 +1,46 @@
+# Bug #001 — Login with invalid password fails
+
+## Description
+Entering an incorrect password causes the page to go blank instead of showing an error message.
+
+## Steps to Reproduce
+1. Open the login page
+2. Enter email: test@example.com
+3. Enter password: wrongpass123
+4. Click "Login"
+
+## Expected Result
+Error message: "Invalid email or password" appears.
+
+## Actual Result
+Blank page.
+
+## Status
+Open
+
+## Priority
+High
+
+# Bug #002 — Signup allows invalid email
+
+## Description
+Registration accepts an email without "@" symbol and creates an account.
+
+## Steps
+1. Open the signup page
+2. Enter email: testexample.com
+3. Enter password: 123456
+4. Click "Submit"
+
+## Expected Result
+Error message: "Invalid email format"
+
+## Actual Result
+Account is created successfully
+
+## Status
+Open
+
+## Priority
+Medium
 
